@@ -1,0 +1,49 @@
+.views-progress-bars {
+  background-color: var(--skylight);
+  border-radius: 100px;
+  height: 4px;
+  overflow: hidden;
+  width: 327px;
+}
+
+.views-progress-bars .indicator {
+  background-color: var(--primarybase);
+  border-radius: 100px;
+  height: 4px;
+}
+
+.views-progress-bars .fifty {
+  width: 164px;
+}
+
+.views-progress-bars .twenty {
+  width: 65px;
+}
+
+.views-progress-bars .seventy {
+  width: 237px;
+}
+
+.views-progress-bars .eighty {
+  width: 262px;
+}
+
+.views-progress-bars .sixty {
+  width: 196px;
+}
+
+.views-progress-bars .ninety {
+  width: 294px;
+}
+
+.views-progress-bars .ten {
+  width: 33px;
+}
+
+.views-progress-bars .thirty {
+  width: 98px;
+}
+
+.views-progress-bars .forty {
+  width: 131px;
+}

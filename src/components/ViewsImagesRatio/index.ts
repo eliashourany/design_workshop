@@ -1,0 +1,1 @@
+export { ViewsImagesRatio } from "./ViewsImagesRatio";

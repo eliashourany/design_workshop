@@ -1,0 +1,205 @@
+.account-setup {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.account-setup .bars-nav-bars-standard {
+  left: 100px !important;
+  position: absolute !important;
+  top: 40px !important;
+  width: 1240px !important;
+}
+
+.account-setup .bars-nav-bars-instance {
+  left: 593px !important;
+}
+
+.account-setup .bars-nav-bars-standard-instance {
+  height: 24px !important;
+  left: 1192px !important;
+  position: absolute !important;
+  top: 12px !important;
+  width: 24px !important;
+}
+
+.account-setup .views-progress-bars-instance {
+  left: 124px !important;
+  position: absolute !important;
+  top: 104px !important;
+  width: 1216px !important;
+}
+
+.account-setup .design-component-instance-node {
+  width: 608px !important;
+}
+
+.account-setup .bars-nav-bars-large-instance {
+  left: 124px !important;
+  position: absolute !important;
+  top: 139px !important;
+}
+
+.account-setup .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  justify-content: space-between;
+  left: 124px;
+  position: absolute;
+  top: 283px;
+  width: 1216px;
+}
+
+.account-setup .image-lists-image-2 {
+  height: 184px;
+  position: relative;
+  width: 156px;
+}
+
+.account-setup .overlap-group {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here-12.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 8px;
+  height: 156px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.account-setup .overlay {
+  background-color: var(--inkdarkest);
+  border-radius: 8px;
+  height: 156px;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.account-setup .controls-checkboxes-instance {
+  height: 32px !important;
+  left: 62px !important;
+  position: absolute !important;
+  top: 62px !important;
+  width: 32px !important;
+}
+
+.account-setup .controls-checkboxes-2 {
+  height: 20px !important;
+  left: 6px !important;
+  position: absolute !important;
+  top: 6px !important;
+  width: 20px !important;
+}
+
+.account-setup .asian-2 {
+  color: var(--inkdarkest);
+  font-family: var(--regular-none-regular-font-family);
+  font-size: var(--regular-none-regular-font-size);
+  font-style: var(--regular-none-regular-font-style);
+  font-weight: var(--regular-none-regular-font-weight);
+  left: 0;
+  letter-spacing: var(--regular-none-regular-letter-spacing);
+  line-height: var(--regular-none-regular-line-height);
+  position: absolute;
+  text-align: center;
+  top: 163px;
+  width: 156px;
+}
+
+.account-setup .overlap {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here-11.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 8px;
+  height: 156px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.account-setup .image-lists-image-list-item {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here-10.png) !important;
+  border-radius: 8px !important;
+  height: 156px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 156px !important;
+}
+
+.account-setup .image-lists-image-instance {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here-5.png) !important;
+  border-radius: 8px !important;
+  height: 156px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 156px !important;
+}
+
+.account-setup .image-lists-image-list-item-instance {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here-1.png) !important;
+  border-radius: 8px !important;
+  height: 156px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 156px !important;
+}
+
+.account-setup .image-lists-image-3 {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here-3.png) !important;
+  border-radius: 8px !important;
+  height: 156px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 156px !important;
+}
+
+.account-setup .image-lists-image-4 {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here.png) !important;
+  border-radius: 8px !important;
+  height: 156px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 156px !important;
+}
+
+.account-setup .image-lists-image-5 {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here-2.png) !important;
+  border-radius: 8px !important;
+  height: 156px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 156px !important;
+}
+
+.account-setup .controls-buttons-2 {
+  left: 118px !important;
+  position: absolute !important;
+  top: 726px !important;
+}
+
+.account-setup .controls-buttons-3 {
+  left: 126px !important;
+}
+
+.account-setup .icon-1 {
+  height: 24px !important;
+  left: 287px !important;
+  position: absolute !important;
+  top: 12px !important;
+  width: 24px !important;
+}

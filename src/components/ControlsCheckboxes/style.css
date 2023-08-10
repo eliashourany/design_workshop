@@ -1,0 +1,35 @@
+.controls-checkboxes {
+  border: 1px solid;
+  border-radius: 54px;
+  height: 24px;
+  width: 24px;
+}
+
+.controls-checkboxes.disabled {
+  border-color: var(--skylight);
+}
+
+.controls-checkboxes.pressed {
+  border-color: var(--primarydarkest);
+}
+
+.controls-checkboxes.selected-true {
+  position: relative;
+}
+
+.controls-checkboxes.selected-false.default {
+  border-color: var(--skylight);
+}
+
+.controls-checkboxes.selected-true.default {
+  background-color: var(--primarybase);
+  border-color: var(--primarybase);
+}
+
+.controls-checkboxes.pressed.selected-true {
+  background-color: var(--primarydarkest);
+}
+
+.controls-checkboxes.selected-true.disabled {
+  background-color: var(--skylight);
+}

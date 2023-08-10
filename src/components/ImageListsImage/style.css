@@ -1,0 +1,201 @@
+.image-lists-image {
+  position: relative;
+}
+
+.image-lists-image .controls-chips-pill {
+  align-items: center;
+  background-color: var(--primarylightest);
+  border-radius: 32px;
+  display: inline-flex;
+  height: 24px;
+  left: 208px;
+  overflow: hidden;
+  padding: 8px 16px;
+  position: absolute;
+  top: 200px;
+}
+
+.image-lists-image .chip {
+  color: var(--primarybase);
+  font-family: var(--tiny-none-medium-font-family);
+  font-size: var(--tiny-none-medium-font-size);
+  font-style: var(--tiny-none-medium-font-style);
+  font-weight: var(--tiny-none-medium-font-weight);
+  letter-spacing: var(--tiny-none-medium-letter-spacing);
+  line-height: var(--tiny-none-medium-line-height);
+  margin-bottom: -1px;
+  margin-top: -3px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.image-lists-image .class-5 {
+  background-image: url(../../../static/img/image-placeholder-copy-paste-here-19.png) !important;
+  height: 184px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 327px !important;
+}
+
+.image-lists-image .sunset-bagels {
+  color: var(--inkdarkest);
+  left: 0;
+  position: absolute;
+}
+
+.image-lists-image .burger-sandwich {
+  color: var(--skydarkest);
+  font-family: var(--small-none-regular-font-family);
+  font-size: var(--small-none-regular-font-size);
+  font-style: var(--small-none-regular-font-style);
+  font-weight: var(--small-none-regular-font-weight);
+  left: 0;
+  letter-spacing: var(--small-none-regular-letter-spacing);
+  line-height: var(--small-none-regular-line-height);
+  position: absolute;
+}
+
+.image-lists-image .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+  left: 0;
+  position: absolute;
+  top: 255px;
+}
+
+.image-lists-image .text-wrapper-2 {
+  color: var(--inkdarkest);
+  font-family: var(--small-none-regular-font-family);
+  font-size: var(--small-none-regular-font-size);
+  font-style: var(--small-none-regular-font-style);
+  font-weight: var(--small-none-regular-font-weight);
+  letter-spacing: var(--small-none-regular-letter-spacing);
+  line-height: var(--small-none-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.image-lists-image .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.image-lists-image .icon-7 {
+  height: 14px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.image-lists-image .text-wrapper-3 {
+  color: var(--primarybase);
+  font-family: var(--small-none-medium-font-family);
+  font-size: var(--small-none-medium-font-size);
+  font-style: var(--small-none-medium-font-style);
+  font-weight: var(--small-none-medium-font-weight);
+  letter-spacing: var(--small-none-medium-letter-spacing);
+  line-height: var(--small-none-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.image-lists-image .text-wrapper-4 {
+  color: var(--primarybase);
+  font-family: var(--small-none-medium-font-family);
+  font-size: var(--small-none-medium-font-size);
+  font-style: var(--small-none-medium-font-style);
+  font-weight: var(--small-none-medium-font-weight);
+  left: 0;
+  letter-spacing: var(--small-none-medium-letter-spacing);
+  line-height: var(--small-none-medium-line-height);
+  position: absolute;
+  top: 223px;
+  width: 156px;
+}
+
+.image-lists-image .asian {
+  color: var(--inkdarkest);
+  font-family: var(--regular-none-regular-font-family);
+  font-size: var(--regular-none-regular-font-size);
+  font-style: var(--regular-none-regular-font-style);
+  font-weight: var(--regular-none-regular-font-weight);
+  left: 0;
+  letter-spacing: var(--regular-none-regular-letter-spacing);
+  line-height: var(--regular-none-regular-line-height);
+  position: absolute;
+  text-align: center;
+  top: 163px;
+  width: 156px;
+}
+
+.image-lists-image.food {
+  height: 238px;
+  width: 156px;
+}
+
+.image-lists-image.store {
+  height: 272px;
+  width: 327px;
+}
+
+.image-lists-image.category {
+  height: 184px;
+  width: 156px;
+}
+
+.image-lists-image.food .sunset-bagels {
+  font-family: var(--regular-none-medium-font-family);
+  font-size: var(--regular-none-medium-font-size);
+  font-style: var(--regular-none-medium-font-style);
+  font-weight: var(--regular-none-medium-font-weight);
+  letter-spacing: var(--regular-none-medium-letter-spacing);
+  line-height: var(--regular-none-medium-line-height);
+  top: 171px;
+  width: 156px;
+}
+
+.image-lists-image.store .sunset-bagels {
+  font-family: var(--large-none-medium-font-family);
+  font-size: var(--large-none-medium-font-size);
+  font-style: var(--large-none-medium-font-style);
+  font-weight: var(--large-none-medium-font-weight);
+  letter-spacing: var(--large-none-medium-letter-spacing);
+  line-height: var(--large-none-medium-line-height);
+  top: 199px;
+  width: 192px;
+}
+
+.image-lists-image.category .sunset-bagels {
+  font-family: var(--large-none-medium-font-family);
+  font-size: var(--large-none-medium-font-size);
+  font-style: var(--large-none-medium-font-style);
+  font-weight: var(--large-none-medium-font-weight);
+  letter-spacing: var(--large-none-medium-letter-spacing);
+  line-height: var(--large-none-medium-line-height);
+  top: 199px;
+  width: 192px;
+}
+
+.image-lists-image.food .burger-sandwich {
+  top: 191px;
+  width: 156px;
+}
+
+.image-lists-image.store .burger-sandwich {
+  top: 223px;
+  width: 192px;
+}
+
+.image-lists-image.category .burger-sandwich {
+  top: 223px;
+  width: 192px;
+}

@@ -1,0 +1,686 @@
+.controls-buttons {
+  border-radius: 8px;
+}
+
+.controls-buttons .instance-node {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.controls-buttons .text-2 {
+  font-family: var(--regular-none-medium-font-family);
+  font-size: var(--regular-none-medium-font-size);
+  font-style: var(--regular-none-medium-font-style);
+  font-weight: var(--regular-none-medium-font-weight);
+  letter-spacing: var(--regular-none-medium-letter-spacing);
+  line-height: var(--regular-none-medium-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.controls-buttons .text-3 {
+  font-family: var(--regular-none-medium-font-family);
+  font-size: var(--regular-none-medium-font-size);
+  font-style: var(--regular-none-medium-font-style);
+  font-weight: var(--regular-none-medium-font-weight);
+  letter-spacing: var(--regular-none-medium-letter-spacing);
+  line-height: var(--regular-none-medium-line-height);
+  white-space: nowrap;
+}
+
+.controls-buttons .icon-49 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.controls-buttons .text-4 {
+  font-family: var(--regular-none-medium-font-family);
+  font-size: var(--regular-none-medium-font-size);
+  font-style: var(--regular-none-medium-font-style);
+  font-weight: var(--regular-none-medium-font-weight);
+  letter-spacing: var(--regular-none-medium-letter-spacing);
+  line-height: var(--regular-none-medium-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.controls-buttons .icon-22 {
+  height: 24px !important;
+  left: 287px !important;
+  position: absolute !important;
+  top: 12px !important;
+  width: 24px !important;
+}
+
+.controls-buttons.large {
+  display: inline-flex;
+  position: relative;
+}
+
+.controls-buttons.small {
+  display: inline-flex;
+  position: relative;
+}
+
+.controls-buttons.outline {
+  border: 1px solid;
+}
+
+.controls-buttons.none {
+  position: relative;
+}
+
+.controls-buttons.block {
+  height: 48px;
+  width: 327px;
+}
+
+.controls-buttons.right {
+  position: relative;
+}
+
+.controls-buttons.left {
+  position: relative;
+}
+
+.controls-buttons.state-default.small {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.none.large {
+  padding: 16px 32px;
+}
+
+.controls-buttons.side.large {
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 32px;
+}
+
+.controls-buttons.small.left {
+  gap: 8px;
+  padding: 8px 16px 8px 8px;
+}
+
+.controls-buttons.none.small {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 16px;
+}
+
+.controls-buttons.large.right {
+  gap: 24px;
+  padding: 12px 16px 12px 32px;
+}
+
+.controls-buttons.state-disabled.secondary {
+  background-color: var(--skylight);
+}
+
+.controls-buttons.outline.state-default {
+  border-color: var(--primarybase);
+}
+
+.controls-buttons.outline.state-disabled {
+  border-color: var(--skybase);
+}
+
+.controls-buttons.state-pressed.primary {
+  background-color: var(--primarydarkest);
+}
+
+.controls-buttons.small.side {
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+  padding: 8px 16px;
+}
+
+.controls-buttons.small.state-disabled {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.outline.small {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.state-pressed.secondary {
+  background-color: var(--primarylighter);
+}
+
+.controls-buttons.small.primary {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.large.left {
+  gap: 24px;
+  padding: 12px 32px 12px 16px;
+}
+
+.controls-buttons.outline.state-pressed {
+  border-color: var(--primarydarkest);
+}
+
+.controls-buttons.state-disabled.primary {
+  background-color: var(--skylight);
+}
+
+.controls-buttons.small.secondary {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.state-pressed.transparent {
+  background-color: var(--primarylightest);
+}
+
+.controls-buttons.small.right {
+  gap: 8px;
+  padding: 8px 8px 8px 16px;
+}
+
+.controls-buttons.outline.large {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.primary.large.right {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.state-pressed.large.primary {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.state-pressed.large.right {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.none.state-default.primary {
+  background-color: var(--primarybase);
+}
+
+.controls-buttons.secondary.large.left {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.primary.large.left {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.state-default.small.primary {
+  background-color: var(--primarybase);
+}
+
+.controls-buttons.state-pressed.transparent.large {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.none.large.secondary {
+  align-items: flex-start;
+}
+
+.controls-buttons.state-default.side.primary {
+  background-color: var(--primarybase);
+}
+
+.controls-buttons.transparent.state-default.large {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.state-default.small.secondary {
+  background-color: var(--primarylightest);
+}
+
+.controls-buttons.state-default.block.secondary {
+  background-color: var(--skywhite);
+  border: 1px solid;
+  border-color: var(--skylighter);
+}
+
+.controls-buttons.state-default.large.right {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.large.state-disabled.primary {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.none.transparent.large {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.state-default.large.secondary {
+  background-color: var(--primarylightest);
+}
+
+.controls-buttons.state-pressed.large.left {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.secondary.large.right {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.state-default.primary.left {
+  background-color: var(--primarybase);
+}
+
+.controls-buttons.state-default.block.primary {
+  background-color: var(--primarybase);
+}
+
+.controls-buttons.state-default.large.left {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-buttons.none.state-default.large.primary {
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.controls-buttons.state-default.primary.large.right {
+  background-color: var(--primarydarkest);
+}
+
+.controls-buttons .size-large {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.controls-buttons .size-small {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.controls-buttons .icon-position-side {
+  position: relative;
+}
+
+.controls-buttons .icon-true {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.controls-buttons .icon-false {
+  font-family: var(--regular-none-medium-font-family);
+  font-size: var(--regular-none-medium-font-size);
+  font-style: var(--regular-none-medium-font-style);
+  font-weight: var(--regular-none-medium-font-weight);
+  letter-spacing: var(--regular-none-medium-letter-spacing);
+  line-height: var(--regular-none-medium-line-height);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.controls-buttons .icon-position-right {
+  position: relative;
+}
+
+.controls-buttons .icon-position-left {
+  position: relative;
+}
+
+.controls-buttons .icon-true.icon-position-left {
+  top: 12px;
+}
+
+.controls-buttons .icon-true.icon-position-right {
+  top: 12px;
+}
+
+.controls-buttons .type-outline.icon-true {
+  left: 92px;
+}
+
+.controls-buttons .icon-position-side.icon-true {
+  top: 12px;
+}
+
+.controls-buttons .size-small.icon-true {
+  top: 12px;
+}
+
+.controls-buttons .icon-true.size-large {
+  top: 12px;
+}
+
+.controls-buttons .icon-position-none.size-block {
+  height: 16px;
+  position: absolute;
+  top: 15px;
+}
+
+.controls-buttons .icon-position-side.type-primary {
+  left: 89px;
+}
+
+.controls-buttons .icon-true.type-secondary {
+  left: 78px;
+}
+
+.controls-buttons .icon-position-none.size-block.type-primary {
+  left: 105px;
+}
+
+.controls-buttons .type-transparent.icon-position-side.icon-true {
+  left: 73px;
+}
+
+.controls-buttons .type-transparent.icon-true.size-large {
+  left: 73px;
+}
+
+.controls-buttons .state-0-pressed.size-small.type-secondary {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .state-0-default.size-small.type-secondary {
+  color: var(--primarybase);
+}
+
+.controls-buttons .type-transparent.state-0-default.size-small {
+  color: var(--primarybase);
+}
+
+.controls-buttons .type-transparent.icon-true.icon-position-right {
+  left: 73px;
+}
+
+.controls-buttons .type-outline.state-0-default.size-large {
+  color: var(--primarybase);
+}
+
+.controls-buttons .icon-position-none.state-0-default.type-primary {
+  color: var(--skywhite);
+}
+
+.controls-buttons .icon-position-none.state-0-pressed.type-transparent {
+  color: var(--primarybase);
+}
+
+.controls-buttons .icon-position-none.state-0-disabled.type-primary {
+  color: var(--skydarkest);
+}
+
+.controls-buttons .icon-position-none.type-transparent.state-0-default {
+  color: var(--primarybase);
+}
+
+.controls-buttons .type-transparent.state-0-default.size-large {
+  color: var(--primarybase);
+}
+
+.controls-buttons .type-outline.state-0-pressed.icon-position-none {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .icon-position-none.type-transparent.state-0-disabled {
+  color: var(--skybase);
+}
+
+.controls-buttons .icon-position-none.state-0-pressed.type-primary {
+  color: var(--skywhite);
+}
+
+.controls-buttons .icon-position-none.state-0-disabled.type-secondary {
+  color: var(--skydarkest);
+}
+
+.controls-buttons .type-outline.icon-position-none.state-0-disabled {
+  color: var(--skybase);
+}
+
+.controls-buttons .icon-position-none.type-transparent.size-block {
+  left: 89px;
+}
+
+.controls-buttons .type-transparent.icon-true.icon-position-left {
+  left: 73px;
+}
+
+.controls-buttons .state-0-default.size-large.type-secondary {
+  color: var(--primarybase);
+}
+
+.controls-buttons .type-outline.state-0-default.icon-position-none {
+  color: var(--primarybase);
+}
+
+.controls-buttons .state-0-pressed.size-large.type-secondary {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .icon-position-none.state-0-pressed.type-secondary {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .type-transparent.size-small.icon-true {
+  left: 73px;
+}
+
+.controls-buttons .type-outline.state-0-default.size-small {
+  color: var(--primarybase);
+}
+
+.controls-buttons .type-outline.icon-false.icon-position-none.size-block {
+  left: 108px;
+}
+
+.controls-buttons .icon-position-none.icon-false.size-block.type-secondary {
+  left: 94px;
+}
+
+.controls-buttons .icon-position-none.state-0-default.size-block.type-secondary {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .text-position-center {
+  text-align: center;
+}
+
+.controls-buttons .size-0-large {
+  position: relative;
+  width: fit-content;
+}
+
+.controls-buttons .size-0-small {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.controls-buttons .text-position-left {
+  left: 24px;
+}
+
+.controls-buttons .size-0-block {
+  height: 16px;
+  position: absolute;
+  top: 15px;
+}
+
+.controls-buttons .state-2-default.type-1-primary {
+  color: var(--skywhite);
+}
+
+.controls-buttons .state-2-disabled.type-1-secondary {
+  color: var(--skydarkest);
+}
+
+.controls-buttons .type-1-outline.state-2-default {
+  color: var(--primarybase);
+}
+
+.controls-buttons .type-1-outline.state-2-disabled {
+  color: var(--skybase);
+}
+
+.controls-buttons .state-2-pressed.type-1-primary {
+  color: var(--skywhite);
+}
+
+.controls-buttons .state-2-pressed.type-1-secondary {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .type-1-outline.state-2-pressed {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .state-2-disabled.type-1-primary {
+  color: var(--skydarkest);
+}
+
+.controls-buttons .type-1-outline.text-position-center.size-0-block {
+  left: 108px;
+}
+
+.controls-buttons .text-position-center.size-0-block.type-1-secondary {
+  left: 94px;
+}
+
+.controls-buttons .state-2-default.size-0-small.type-1-secondary {
+  color: var(--primarybase);
+}
+
+.controls-buttons .state-2-default.size-0-block.type-1-secondary {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .text-position-center.size-0-block.type-1-primary {
+  left: 105px;
+}
+
+.controls-buttons .state-2-default.size-0-large.type-1-secondary {
+  color: var(--primarybase);
+}
+
+.controls-buttons .text-5.state-0-default.type-secondary .text-2 {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .text-5.type-outline.state-0-default .text-2 {
+  color: var(--primarybase);
+}
+
+.controls-buttons .text-5.type-transparent.state-0-default .text-2 {
+  color: var(--primarybase);
+}
+
+.controls-buttons .text-5.type-outline.state-0-pressed .text-2 {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .text-5.type-outline.state-0-disabled .text-2 {
+  color: var(--skybase);
+}
+
+.controls-buttons .text-5.state-0-disabled.type-primary .text-2 {
+  color: var(--skydarkest);
+}
+
+.controls-buttons .text-5.state-0-pressed.type-primary .text-2 {
+  color: var(--skywhite);
+}
+
+.controls-buttons .text-5.state-0-pressed.type-transparent .text-2 {
+  color: var(--primarybase);
+}
+
+.controls-buttons .text-5.type-transparent.state-0-disabled .text-2 {
+  color: var(--skybase);
+}
+
+.controls-buttons .text-5.state-0-default.type-primary .text-2 {
+  color: var(--skywhite);
+}
+
+.controls-buttons .text-5.state-0-pressed.type-secondary .text-2 {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons .text-5.state-0-disabled.type-secondary .text-2 {
+  color: var(--skydarkest);
+}
+
+.controls-buttons.small .text-4 {
+  margin-top: -1px;
+}
+
+.controls-buttons.state-default.primary .text-4 {
+  color: var(--skywhite);
+}
+
+.controls-buttons.state-default.secondary .text-4 {
+  color: var(--primarybase);
+}
+
+.controls-buttons.transparent.state-default .text-4 {
+  color: var(--primarybase);
+}
+
+.controls-buttons.state-disabled.secondary .text-4 {
+  color: var(--skydarkest);
+}
+
+.controls-buttons.outline.state-default .text-4 {
+  color: var(--primarybase);
+}
+
+.controls-buttons.outline.state-disabled .text-4 {
+  color: var(--skybase);
+}
+
+.controls-buttons.state-pressed.primary .text-4 {
+  color: var(--skywhite);
+}
+
+.controls-buttons.transparent.state-disabled .text-4 {
+  color: var(--skybase);
+}
+
+.controls-buttons.state-pressed.secondary .text-4 {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons.outline.state-pressed .text-4 {
+  color: var(--primarydarkest);
+}
+
+.controls-buttons.state-disabled.primary .text-4 {
+  color: var(--skydarkest);
+}
+
+.controls-buttons.state-pressed.transparent .text-4 {
+  color: var(--primarybase);
+}
